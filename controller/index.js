@@ -25,12 +25,32 @@ const GET = (req,res) => {
     
 
 }
-const GETHISTORY = () => {
+const GETHISTORY = (req,res) => {
+    const data=JSON.parse(fs.readFileSync(path.join(process.cwd(),"/data/history.json"),"utf-8"))
+    const id = req.params.id
+    const history = data.filter((item) => item.id === id)
+    res.send(history)
 
 }
-const POST = () => {
-
-
+const POST = (req,res) => {
+    const data=readfile()
+    let {fromUserId,toUserId,amount}=req.body
+    
+    let to = []
+    let from = []
+    for(let i of data){
+       if(i.id == toUserId){
+        to=i
+       }
+       if(i.id == fromUserId){
+        from = i
+       }
+        
+    }
+    from.balance = from.balance - amount
+    to.balance = to.balance + amount
+    writefile(data)
+      
 }
 
 const PUT = (req, res) => {
