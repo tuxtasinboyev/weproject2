@@ -1,27 +1,15 @@
 [
-<<<<<<< HEAD
+
     {
       "id": 1,
-      "fromUserId": 1,
-      "toUserId": 2,
       "amount": 200000,
       "status": "success",
       "timestamp": "2025-04-21T14:20:00Z",
       "timelimit":"12000"
     },
+ 
     {
-      "id": 1,
-      "fromUserId": 3,
-      "toUserId": 1,
-      "amount": 75000,
-      "status": "success",
-      "timestamp": "2025-04-20T09:45:00Z",
-      "timelimit":"12000"
-    },
-    {
-      "id": 1,
-      "fromUserId": 2,
-      "toUserId": 3,
+      "id": 2,
       "amount": 125000,
       "status": "failed",
       "timestamp": "2025-04-19T18:10:00Z",
@@ -29,25 +17,3 @@
     }
   ]
   
-  
-=======
-  {
-    "id": 1,
-    "balance": 200123,
-    "status": "success",
-    "timestamp": "2025-04-21T14:20:00Z"
-  },
-  {
-    "id": 2,
-    "balance": 74877,
-    "status": "success",
-    "timestamp": "2025-04-20T09:45:00Z"
-  },
-  {
-    "id": 3,
-    "balance": 125000,
-    "status": "failed",
-    "timestamp": "2025-04-19T18:10:00Z"
-  }
-]
->>>>>>> 2c40c53d78ca033a5fc14cc798efc556edf89d95
