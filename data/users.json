@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "fromUserId": 1,
+      "toUserId": 2,
+      "amount": 200000,
+      "status": "success",
+      "timestamp": "2025-04-21T14:20:00Z"
+    },
+    {
+      "id": 1,
+      "fromUserId": 3,
+      "toUserId": 1,
+      "amount": 75000,
+      "status": "success",
+      "timestamp": "2025-04-20T09:45:00Z"
+    },
+    {
+      "id": 1,
+      "fromUserId": 2,
+      "toUserId": 3,
+      "amount": 125000,
+      "status": "failed",
+      "timestamp": "2025-04-19T18:10:00Z"
+    }
+  ]
+  
+  
